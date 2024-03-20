@@ -11,9 +11,24 @@
 		<h1>2. Składnia teoretyczna</h1>
 		<table border="1">
 			<td>
-			&lt;head&gt;
-			&nbsp;&nbsp;&nbsp;&nbsp;(...)
+			&lt;head&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;style type="text/css"&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;/*&lt;![CDATA[*/<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;/*]]&gt;*/<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(...)<br>
+			&lt;/head&gt;
+			</td>
+		</table>
 		<h1>3. Jakie mogą być selektory</h1>
+		<p><b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w akruszu</p>
 		<h1>4. Jakie mogą być cechy i wartości</h1>
+		<p>Jako <b>"cecha"</b> (w deklaracji stylu powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach)</p>
+		<p>Natomiast jako wyraz <b>"wartość"</b> wpisujemy dokładną wartość atrybutu.</p>
+		<p>Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielane średnikami/</p>
 	</body>
 </html>
