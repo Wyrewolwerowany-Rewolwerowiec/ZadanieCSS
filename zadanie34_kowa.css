@@ -1,0 +1,11 @@
+h3 {
+    width: 400pt;
+    height: 3cm;
+    border-color: gray;
+    border-style: double;
+    background-color: rgb(175, 175, 175);
+    margin-right: 23%;
+    margin-left: auto;
+    font-size: large
+}
+/*Oskar Kowalski*/
