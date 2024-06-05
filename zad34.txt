@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            h1 {
+                width: 200pt;
+                height: 2,5cm;
+                background-color: rgb(175, 175, 175);
+                border-top: black;
+                border-bottom: gray;
+                border-left: red;
+                border-right: fuchsia;
+                border-style: solid;
+                margin: auto;
+                font-size: 25px;
+                padding-left: 2%;
+                padding-right: 2%;
+                padding-bottom: 1%;
+                padding-top: 1%;
+            }
+            h2 {
+                width: 300pt;
+                height: 2cm;
+                border-color: silver;
+                border-style: dashed;
+                background-color: rgb(175, 175, 175);
+                margin-left: 27%;
+                margin-right: auto;
+                font-size: medium;
+            }
+        </style>
+        <link rel="stylesheet" href="zadanie34_kowa.css">
+    </head>
+    <body>
+        <h1>Kowalski width: 200pt; height: 2,5cm; background-color: rgb(175, 175, 175); border-top: black; border-bottom: gray; border-left: red; border-right: fuchsia; border-style: solid; margin: auto;</h1>
+        <h2>Oskar width: 300pt; height: 2cm; border-color: silver; border-style: dashed; background-color: rgb(175,175,175); margin-left: 27%; margin-right: auto;</h2>
+        <h3>16 2G width: 400pt; height: 3cm; border-color: gray; border-style: double; background-color: rgb(175, 175, 175); margin-right: 23%; margin-left: auto;</h3>
+    </body>
+</html>
