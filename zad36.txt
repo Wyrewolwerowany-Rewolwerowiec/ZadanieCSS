@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 36 - Kowalski</title>
+        <style>
+            body { background-color: rgb(130, 122, 179); text-align: center; margin: 50px; }
+            div { background: rgb(100, 128, 255); width: 400px; border: 3px black solid; }
+            h1 { margin: 20px; border-top: double black; border-bottom: ridge black; border-left: outset black; border-right: inset black; background: rgb(255, 255, 0); }
+            h2 { margin: 40px; border-top: 2px double silver; border-bottom: 2px double red; border-left: 2px double hotpink; border-right: 2px double navy; background: rgb(216, 124, 124); }
+            h3 { margin: 60px; border: 4px ridge lime; background: rgb(151, 157, 184); }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Oskar Kowalski 2G</h1>
+            <hr size=30px>
+            <h2>Drugi nagłówek</h2>
+            <hr size="4cm">
+            <h3>Trzeci nagłówek</h3>
+            <hr size="10%">
+        </div>
+    </body>
+</html>
+<!--Oskar Kowalski-->
